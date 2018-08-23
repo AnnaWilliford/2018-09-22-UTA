@@ -1,4 +1,3 @@
-<h2>Software Carpentry Workshop</h2>
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
