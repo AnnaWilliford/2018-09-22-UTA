@@ -483,11 +483,15 @@ and our administrator may contact you if we need any extra information.</h4>
 		2) Type: cd [enter] to make sure you are in your home directory.<br>
 		3) Type: notepad .bashrc [enter]. This will create .bashrc file in Notepad.
 		Add the following text to the file:<br>
+		<strong>
 		export PATH=$PATH:"C:\Program Files (x86)\Notepad++" <br>
 		alias npp=notepad++ <br>
+		</strong>
 		Note: if Notepad++ is installed in `Program Files` folder,
 		use: <br>
+		<strong>
 		export PATH=$PATH:"C:\Program Files\Notepad++" <br>
+		</strong>
 		4) Save the file and exit Notepad. <br>
 		5) Open a new Git-Bash window. <br>
 		You should now be able to launch Notepad++ by typing: npp [enter]. 
