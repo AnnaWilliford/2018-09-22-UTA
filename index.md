@@ -478,16 +478,18 @@ and our administrator may contact you if we need any extra information.</h4>
         <a href="https://notepad-plus-plus.org/">Notepad++</a>.
         <strong>Be aware that you must
           add its installation directory to your system path.</strong>
-        To add Notepad++ to the path: 1) Open Git-Bash from the start menu.
-		2) Type: cd [enter] to make sure you are in your home directory.
+        To add Notepad++ to the path:<br>
+		1) Open Git-Bash from the start menu.<br>
+		2) Type: cd [enter] to make sure you are in your home directory.<br>
 		3) Type: notepad .bashrc [enter]. This will create .bashrc file in Notepad.
-		Add the following text to the file:
-		export PATH=$PATH:"C:\Program Files (x86)\Notepad++" 
-		alias npp=notepad++
+		Add the following text to the file:<br>
+		export PATH=$PATH:"C:\Program Files (x86)\Notepad++" <br>
+		alias npp=notepad++ <br>
 		Note: if Notepad++ is installed in `Program Files` folder,
-		use: export PATH=$PATH:"C:\Program Files\Notepad++" 
-		4) Save the file and exit Notepad. 
-		5) Open a new Git-Bash window. 
+		use: <br>
+		export PATH=$PATH:"C:\Program Files\Notepad++" <br>
+		4) Save the file and exit Notepad. <br>
+		5) Open a new Git-Bash window. <br>
 		You should now be able to launch Notepad++ by typing: npp [enter]. 
 		If you run into trouble please ask your instructor to help you with this.
       </p>
