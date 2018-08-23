@@ -236,8 +236,8 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
-  We will use this Etherpad collaborative document for chatting, taking notes, and sharing URLs and bits of code: {{page.collaborative_notes}}
+ <!-- We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code. -->
+  We will use this Etherpad collaborative document for chatting, taking notes, and sharing URLs and bits of code: <a href="{{page.collaborative_notes}}"></a>
 </p>
 {% endif %}
 
